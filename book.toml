@@ -1,0 +1,31 @@
+[book]
+title = "pcapliteracy"
+authors = ["laufeynumber1fan"]
+description = "Fan project about pcaps."
+language = "en"
+src = "src"
+
+[output.html]
+smart-punctuation = true
+input-404 = "404.md"
+theme = "theme"
+
+# remove print symbol on the top right corner
+[output.html.print]
+enable = false
+
+[output.html.search]
+enable = true
+expand = true
+
+[output.html.playground]
+editable = true
+
+[output.html.code.hidelines]
+rust = "~"
+
+# mdbook-alerts
+[preprocessor.alerts]
+
+# mdbook-template
+[preprocessor.template]

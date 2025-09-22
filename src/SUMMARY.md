@@ -1,4 +1,6 @@
 # Summary
 
-- [From The Start](./from-the-start.md)
-- [Chapter 2](./chapter_2.md)
+[Introduction](README.md)
+- [From The Start](./1-10/from_the_start.md)
+- [Second Best](./1-10/second_best.md)
+- [A Cautionary Tale](./1-10/a_cationary_tale.md)

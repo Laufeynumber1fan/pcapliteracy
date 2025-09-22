@@ -1,48 +1,53 @@
+<h1 id="h-note"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/second%20best.pcap">Second Best</h1>
+
+> [!NOTE]  
+> How do you read a pcap with a space in the name?
+
 <div class="container">
     <div class="form-row">
         <div class="container">
-            <h1>From The Start</h1>
-<hr>
-<ol>
-<li>
-<p>How many packets?</p>
-<ul class="textbox">
-<li><input type="text" data-content="742" data-question="7s4s2s" placeholder="***" class="form-control" />
-</ul>
-</li>
-<li>
-<p>Identify protocols that appear in the pcap. <em>Select all that apply</em></p>
-<ul class="checklist">
-<li><label><input type="checkbox" data-question="0" data-content="1" /> TCP</label></li>
-<li><label><input type="checkbox" data-question="1" data-content="0" /> FTP</label></li>
-<li><label><input type="checkbox" data-question="1" data-content="0" /> HTTPS</label></li>
-<li><label><input type="checkbox" data-question="0" data-content="1" /> NTP</label></li>
-<li><label><input type="checkbox" data-question="1" data-content="0" /> SSL</label></li>
-<li><label><input type="checkbox" data-question="0" data-content="1" /> ARP</label></li>
-</ul>
-</li>
-<li>
-<p>Find the DNS server within the 192.168.100.* network.</p>
-<ul class="textbox">
-<li><input type="text" data-content="2.001.861.291" data-question="2s.s0s0s1s.s8s6s1s.s2s9s1s" placeholder="XXX.XXX.XXX.?" class="form-control" />
-</ul>
-</li>
-<li>
-<p>The DNS server replied with an A record. It contained an IP of 216.58.206.46. What is that A record's name?</p>
-<ul class="radio-list">
-<li><label><input type="radio" data-question="1" data-content="0" /> 8.100.168.192.in-addr.arpa</label></li>
-<li><label><input type="radio" data-question="0" data-content="1" /> google.com</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> debian.local</label></li>
-<li><label><input type="radio" data-question="1" data-content="0" /> dnslookup.com</label></li>
-</ul>
-</li>
-<li>
-<p>What's the month, day, and year that this pcap was captured?</p>
-<ul class="textbox">
-<li><input type="text" data-content="5202-81-90" data-question="5s2s0s2s-s8s1s-s9s0s" placeholder="MM-DD-YYYY." class="form-control" />
-</ul>
-</li>
-</ol>
+            <hr>
+            <ol>
+                <li>
+                    <p>What is the MD5 hash of the pcap?</p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="761a88362119f2ca571eb2b82e04ef90" data-question="7s6s1sas8s8s3s6s2s1s1s9sfs2scsas5s7s1sesbs2sbs8s2ses0s4sesfs9s0s" placeholder="********************************" class="form-control" />
+                    </ul>
+                </li>
+                <li>
+                    <p>What is the Arrival timestamp of the 722nd packet?</p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="15:45:32 13-30-5202" data-question="1s5s:s4s5s:s3s2s s1s3s-s3s0s-s5s2s0s2s" placeholder="YYYY-MM-DD HH-MM-SS" class="form-control" />
+                    </ul>
+                </li>
+                <li>
+                    <p>Identify domains that were contacted in the pcap. <em>Select all that apply.</em></p>
+                    <ul class="checklist">
+                        <li><label><input type="checkbox" data-question="0" data-content="1" /> google.com</label></li>
+                        <li><label><input type="checkbox" data-question="1" data-content="0" /> youtube.com</label></li>
+                        <li><label><input type="checkbox" data-question="1" data-content="0" /> bing.com</label></li>
+                        <li><label><input type="checkbox" data-question="1" data-content="0" /> yahoo.com</label></li>
+                        <li><label><input type="checkbox" data-question="0" data-content="1" /> microsoft.com</label></li>
+                        <li><label><input type="checkbox" data-question="1" data-content="0" /> hackersrus.ru</label></li>
+                        <li><label><input type="checkbox" data-question="1" data-content="0" /> virustotal.com</label></li>
+                    </ul>
+                </li>
+                <li>
+                    <p>How many tcp streams are in the pcap?</p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="71" data-question="7s1s" placeholder="**" class="form-control" />
+                    </ul>
+                </li>
+                <li>
+                    <p>Is there malicious exe files in this pcap?</p>
+                    <ul class="radio-list">
+                        <li><label><input type="radio" data-question="1" data-content="0" /> No. There are no exe files.</label></li>
+                        <li><label><input type="radio" data-question="1" data-content="0" /> No. All files are safe to use.</label></li>
+                        <li><label><input type="radio" data-question="1" data-content="0" /> Yes. There are malicious .crl files.</label></li>
+                        <li><label><input type="radio" data-question="0" data-content="1" /> Unsure. The files are encrypted with SSL.</label></li>
+                    </ul>
+                </li>
+            </ol>
         </div>
     </div>
     <div id="tg-msg" class="alert" role="alert" style="display: none">

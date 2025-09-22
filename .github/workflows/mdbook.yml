@@ -30,8 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MDBOOK_VERSION: 0.4.52
-      ALERTS_VERSION: 0.8.0
-      TEMPLATE_VERSION: 1.1.1 
+      ALERTS_VERSION: 0.8.0 
 
     steps:
       - uses: actions/checkout@v4
@@ -43,10 +42,6 @@ jobs:
       - name: Install mdbook-alerts
         run: |
           cargo install --version ${ALERTS_VERSION} mdbook-alerts
-      - name: Install mdbook-template
-        run: |
-          cargo install --version ${TEMPLATE_VERSION} mdbook-template
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

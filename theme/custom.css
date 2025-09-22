@@ -1,0 +1,26 @@
+body {
+    font-size: 1.6em !important;
+}
+code {
+    font-size: 1.25em;
+}
+
+#h-note > a { 
+    color: #0969DA !important;
+}
+
+#h-tip > a {
+    color: #1A7F37 !important;
+}
+
+#h-important > a {
+    color: #8250DF !important;
+}
+
+#h-warning > a {
+    color: #9A6700 !important;
+}
+
+#h-caution > a {
+    color: #CF222E !important;
+}

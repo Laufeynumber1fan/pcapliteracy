@@ -6,17 +6,23 @@ language = "en"
 src = "src"
 
 [output.html]
+theme = "theme"
+additional-css = ["theme/custom.css"]
+default-theme = "light"
+preferred-dark-theme = "light"
 smart-punctuation = true
 input-404 = "404.md"
-theme = "theme"
+git-repository-url = "https://github.com/Laufeynumber1fan/pcapliteracy"
+git-repository-icon = "fa-github"
 
 # remove print symbol on the top right corner
 [output.html.print]
 enable = false
 
+# disable search button
 [output.html.search]
-enable = true
-expand = true
+enable = false
+expand = false
 
 [output.html.playground]
 editable = true
@@ -26,6 +32,3 @@ rust = "~"
 
 # mdbook-alerts
 [preprocessor.alerts]
-
-# mdbook-template
-[preprocessor.template]

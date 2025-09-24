@@ -1,7 +1,7 @@
-<h1 id="h-tip"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/from-the-start.pcap">From The Start</h1>
-<sup>^^ click me!!</sup>
+<h1 id="h-tip"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/from-the-start.pcap">From The Start <u>🠇</u></h1>
+<sup>^^download me</sup>
 > [!TIP]  
-> Click the title to download the pcap.
+> Press the ENTER key to quickly submit answers.
 
 <div class="container">
     <div class="form-row">
@@ -9,7 +9,7 @@
             <hr>
             <ol>
                 <li>
-                    <p>How many packets?</p>
+                    <p>How many packets are in the pcap?</p>
                     <ul class="textbox">
                         <li><input type="text" data-content="742" data-question="7s4s2s" placeholder="***" class="form-control" />
                     </ul>
@@ -28,7 +28,7 @@
                 <li>
                     <p>Find the DNS server within the 192.168.100.* network.</p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="2.001.861.291" data-question="2s.s0s0s1s.s8s6s1s.s2s9s1s" placeholder="Enter the correct answer." class="form-control" />
+                        <li><input type="text" data-content="2.001.861.291" data-question="2s.s0s0s1s.s8s6s1s.s2s9s1s" placeholder="***.***.***.*" maxlength="13" class="form-control" />
                     </ul>
                 </li>
                 <li>
@@ -43,7 +43,7 @@
                 <li>
                     <p>What's the month, day, and year that this pcap was captured?</p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="81-90-5202" data-question="8s1s-s9s0s-s5s2s0s2s" placeholder="Enter the correct answer." class="form-control" />
+                        <li><input type="text" data-content="81-90-5202" data-question="8s1s-s9s0s-s5s2s0s2s" placeholder="YYYY-MM-DD" maxlength="10" class="form-control" />
                      </ul>
                 </li>
             </ol>

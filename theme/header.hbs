@@ -55,5 +55,15 @@
         if (event.key === "Enter") {
         document.getElementById("check-questions").click();
         }
+        if (event.ctrlKey && event.key === "ArrowLeft") {
+            //Overwrite mdbook's arrow traversing feature
+            event.preventDefault(); 
+        }
+
+        // Ctrl + Right Arrow
+        if (event.ctrlKey && event.key === "ArrowRight") {
+            //Overwrite mdbook's arrow traversing feature
+            event.preventDefault(); 
+        }
     });
 </script>

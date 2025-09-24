@@ -1,52 +1,43 @@
-<h1 id="h-note"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/second%20best.pcap">Second Best <u>🠇</u></h1>
+<h1 id="h-note"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/blob/gh-pages/pcaps/1-10/lover_girl.pcap">Lover Girl <u>🠇</u></h1>
 > [!NOTE]  
-> How do you read a pcap with a space in the name?
+> Please **google** if you don't know what to do.
 
 <div class="container">
     <div class="form-row">
         <div class="container">
-            <hr>
-            <ol>
-                <li>
-                    <p>What is the MD5 hash of the pcap?</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="761a88362119f2ca571eb2b82e04ef90" data-question="7s6s1sas8s8s3s6s2s1s1s9sfs2scsas5s7s1sesbs2sbs8s2ses0s4sesfs9s0s" placeholder="********************************" maxlength="32" class="form-control" />
-                    </ul>
-                </li>
-                <li>
-                    <p>What is the Arrival timestamp of the 722nd packet?</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="15:45:32 13-30-5202" data-question="1s5s:s4s5s:s3s2s s1s3s-s3s0s-s5s2s0s2s" placeholder="YYYY-MM-DD HH-MM-SS" maxlength="19" class="form-control" />
-                    </ul>
-                </li>
-                <li>
-                    <p>Identify domains that were contacted in the pcap. <em>Select all that apply.</em></p>
-                    <ul class="checklist">
-                        <li><label><input type="checkbox" data-question="0" data-content="1" /> google.com</label></li>
-                        <li><label><input type="checkbox" data-question="1" data-content="0" /> youtube.com</label></li>
-                        <li><label><input type="checkbox" data-question="1" data-content="0" /> bing.com</label></li>
-                        <li><label><input type="checkbox" data-question="1" data-content="0" /> yahoo.com</label></li>
-                        <li><label><input type="checkbox" data-question="0" data-content="1" /> microsoft.com</label></li>
-                        <li><label><input type="checkbox" data-question="1" data-content="0" /> hackersrus.ru</label></li>
-                        <li><label><input type="checkbox" data-question="1" data-content="0" /> virustotal.com</label></li>
-                    </ul>
-                </li>
-                <li>
-                    <p>How many tcp streams are in the pcap?</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="71" data-question="7s1s" placeholder="**" maxlength="2" class="form-control" />
-                    </ul>
-                </li>
-                <li>
-                    <p>Is there malicious exe files in this pcap?</p>
-                    <ul class="radio-list">
-                        <li><label><input type="radio" data-question="1" data-content="0" /> No. There are no exe files.</label></li>
-                        <li><label><input type="radio" data-question="1" data-content="0" /> No. All files are safe to use.</label></li>
-                        <li><label><input type="radio" data-question="1" data-content="0" /> Yes. There are malicious .crl files.</label></li>
-                        <li><label><input type="radio" data-question="0" data-content="1" /> Unsure. The files are encrypted with SSL.</label></li>
-                    </ul>
-                </li>
-            </ol>
+                <hr>
+                <ol>
+                    <li>
+                        <p>What version of Apache is the web server using?</p>
+                        <ul class="textbox">
+                            <li><input type="text" data-content="04.0.2" data-question="0s4s.s0s.s2s" placeholder="*.*.**" maxlength="6" class="form-control" />
+                        </ul>
+                    </li>
+                    <li>
+                        <p>What is the "Last Modified" timestamp of bg2.jpg?</p>
+                        <ul class="textbox">
+                            <li><input type="text" data-content="00:00:50 21-10-1002" data-question="0s0s:s0s0s:s5s0s s2s1s-s1s0s-s1s0s0s2s" placeholder="YYYY-MM-DD HH:MM:SS" maxlength="19" class="form-control" />
+                        </ul>
+                    </li>
+                    <li>
+                        <p>What is the "Date" timestamp of syndey.jpg?</p>
+                        <ul class="textbox">
+                            <li><input type="text" data-content="70:12:01 02-11-4002" data-question="7s0s:s1s2s:s0s1s   s0s2s-s1s1s-s4s0s0s2s" placeholder="YYYY-MM-DD HH:MM:SS" maxlength="19" class="form-control" />
+                        </ul>
+                    </li>
+                    <li>
+                        <p>What is the full file path of DSC07859.jpg inside the web server?</p>
+                        <ul class="textbox">
+                            <li><input type="text" data-content="GPJ.95870CSD/023/dlroWaeS-70-4002/nadisbeW/" data-question="GsPsJs.s9s5s8s7s0sCsSsDs/s0s2s3s/sdslsrsosWsasesSs-s7s0s-s4s0s0s2s/snsasdsisssbsesWs/s" placeholder="/********/****************/***/********.***" maxlength="43" class="form-control" />
+                        </ul>
+                    </li>
+                    <li>
+                        <p>With the information available to you, which city and country were these pictures taken?</p>
+                        <ul class="textbox">
+                            <li><input type="text" data-content="ailartsuA ,tsaoC dloG" data-question="asislsasrstsssusAs s,stsssasosCs sdslsosGs" placeholder="**** *****, *********" maxlength="21" class="form-control" />
+                        </ul>
+                    </li>
+                </ol>
         </div>
     </div>
     <div id="tg-msg" class="alert" role="alert" style="display: none">
@@ -135,4 +126,5 @@
     }
     $('#check-questions').on('click', checkQuestion);
     $('#reset-questions').on('click', resetQuestions);
-});</script>
+});
+</script>

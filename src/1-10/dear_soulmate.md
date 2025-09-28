@@ -1,51 +1,50 @@
-<h1 id="h-tip"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/from-the-start.pcap">From The Start <u>🠇</u></h1>
-<sup>^^ download me</sup>
-> [!TIP]  
-> Press the ENTER key to quickly submit answers.
+<h1 id="h-important"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/from-the-start.pcap">Dear Soulmate <u>🠇</u></h1>
+> [!IMPORTANT]  
+> Unless you are typing on a textbox, you can traverse exercises with the ← → arrow keys.
 
 <div class="container">
     <div class="form-row">
         <div class="container">
             <hr>
             <ol>
-                <li>
-                    <p>How many packets are in the pcap?</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="742" data-question="7s4s2s" placeholder="***" class="form-control" />
-                    </ul>
-                </li>
-                <li>
-                    <p>Identify protocols that appear in the pcap. <em>Select all that apply</em></p>
-                    <ul class="checklist">
-                        <li><label><input type="checkbox" data-question="0" data-content="1" /> TCP</label></li>
-                        <li><label><input type="checkbox" data-question="1" data-content="0" /> FTP</label></li>
-                        <li><label><input type="checkbox" data-question="1" data-content="0" /> HTTPS</label></li>
-                        <li><label><input type="checkbox" data-question="0" data-content="1" /> NTP</label></li>
-                        <li><label><input type="checkbox" data-question="1" data-content="0" /> SSL</label></li>
-                        <li><label><input type="checkbox" data-question="0" data-content="1" /> ARP</label></li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Find the DNS server within the 192.168.100.* network.</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="2.001.861.291" data-question="2s.s0s0s1s.s8s6s1s.s2s9s1s" placeholder="***.***.***.*" maxlength="13" class="form-control" />
-                    </ul>
-                </li>
-                <li>
-                    <p>The DNS server replied with an A record. It contained an IP of 216.58.206.46. What is that A record's name?</p>
-                    <ul class="radio-list">
-                        <li><label><input type="radio" data-question="1" data-content="0" /> 8.100.168.192.in-addr.arpa</label></li>
-                        <li><label><input type="radio" data-question="0" data-content="1" /> google.com</label></li>
-                        <li><label><input type="radio" data-question="1" data-content="0" /> debian.local</label></li>
-                        <li><label><input type="radio" data-question="1" data-content="0" /> dnslookup.com</label></li>
-                    </ul>
-                </li>
-                <li>
-                    <p>What's the month, day, and year that this pcap was captured?</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="81-90-5202" data-question="8s1s-s9s0s-s5s2s0s2s" placeholder="YYYY-MM-DD" maxlength="10" class="form-control" />
-                     </ul>
-                </li>
+            <li>
+                <p>What is the source IP address that is sending the credentials in plaintext?</p>
+                <ul class="textbox">
+                    <li><input type="text" data-content="3.1.861.291" data-question="3s.s1s.s8s6s1s.s2s9s1s" placeholder="***.***.*.*" maxlength="11" class="form-control" />
+                </ul>
+            </li>
+            <li>
+                <p>What is the DNS resolved name of the web server?</p>
+                <ul class="radio-list">
+                    <li><label><input type="radio" data-question="1" data-content="0" /> google.com</label></li>
+                    <li><label><input type="radio" data-question="1" data-content="0" /> us.gov</label></li>
+                    <li><label><input type="radio" data-question="1" data-content="0" /> datatracker.ietf.org</label></li>
+                    <li><label><input type="radio" data-question="0" data-content="1" /> eecs.tufts.edu</label></li>
+                </ul>
+            </li>
+            <li>
+                <p>What's the password of the user "dmoyes"?</p>
+                <ul class="textbox">
+                    <li><input type="text" data-content="suineGllabtooFAmAI" data-question="ssusisnsesGslslsasbstsososFsAsmsAsIs" placeholder="******************" maxlength="18" class="form-control" />
+                </ul>
+            </li>
+            <li>
+                <p>Why are you able to view the credentials in plaintext?</p>
+                <ul class="radio-list">
+                    <li><label><input type="radio" data-question="1" data-content="0" /> The TLS encryption broke and returned an error of 21.</label></li>
+                    <li><label><input type="radio" data-question="0" data-content="1" /> The web application did not use HTTPS.</label></li>
+                    <li><label><input type="radio" data-question="1" data-content="0" /> The TCP handshake was intercepted in a Man In The Middle attack.</label></li>
+                </ul>
+            </li>
+            <li>
+                <p>What do you suggest in order to fix this vulnerability?</p>
+                <ul class="radio-list">
+                    <li><label><input type="radio" data-question="1" data-content="0" /> The client should update their SSL/TLS version.</label></li>
+                    <li><label><input type="radio" data-question="1" data-content="0" /> The network admin should enable ACL controls.</label></li>
+                    <li><label><input type="radio" data-question="0" data-content="1" /> The network should encrypt their traffic with HTTPS.</label></li>
+                    <li><label><input type="radio" data-question="1" data-content="0" /> The client should verify and reenable their firewall settings.</label></li>
+                </ul>
+            </li>
             </ol>
         </div>
     </div>

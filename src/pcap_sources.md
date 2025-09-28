@@ -3,3 +3,5 @@
 [3. A Cautionary Tale](https://github.com/pan-unit42/wireshark-tutorial-decrypting-HTTPS-traffic)  
 [4. Lover Girl](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/http_with_jpegs.cap.gz)  
 [5. Trouble](https://app.letsdefend.io/challenge/voip)  
+[6. Dear Soulmate](https://github.com/mchow01/Bootcamp/blob/master/set4.pcap)  
+[7. I Wish You Love](https://github.com/sbousseaden/PCAP-ATTACK/blob/master/Command%20and%20Control/C2_Foudre_Backdoor_DGA.pcapng)  

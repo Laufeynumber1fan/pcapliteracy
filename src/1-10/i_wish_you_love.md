@@ -1,51 +1,47 @@
-<h1 id="h-tip"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/from-the-start.pcap">From The Start <u>🠇</u></h1>
-<sup>^^ download me</sup>
-> [!TIP]  
-> Press the ENTER key to quickly submit answers.
+<h1 id="h-caution"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/i_wish_you_love.pcapng">I Wish You Love <u>🠇</u></h1>
+> [!CAUTION]  
+> This pcap is a sample of the Foudre malware contacting its C2 server! 
 
 <div class="container">
     <div class="form-row">
         <div class="container">
             <hr>
             <ol>
-                <li>
-                    <p>How many packets are in the pcap?</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="742" data-question="7s4s2s" placeholder="***" class="form-control" />
-                    </ul>
-                </li>
-                <li>
-                    <p>Identify protocols that appear in the pcap. <em>Select all that apply</em></p>
-                    <ul class="checklist">
-                        <li><label><input type="checkbox" data-question="0" data-content="1" /> TCP</label></li>
-                        <li><label><input type="checkbox" data-question="1" data-content="0" /> FTP</label></li>
-                        <li><label><input type="checkbox" data-question="1" data-content="0" /> HTTPS</label></li>
-                        <li><label><input type="checkbox" data-question="0" data-content="1" /> NTP</label></li>
-                        <li><label><input type="checkbox" data-question="1" data-content="0" /> SSL</label></li>
-                        <li><label><input type="checkbox" data-question="0" data-content="1" /> ARP</label></li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Find the DNS server within the 192.168.100.* network.</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="2.001.861.291" data-question="2s.s0s0s1s.s8s6s1s.s2s9s1s" placeholder="***.***.***.*" maxlength="13" class="form-control" />
-                    </ul>
-                </li>
-                <li>
-                    <p>The DNS server replied with an A record. It contained an IP of 216.58.206.46. What is that A record's name?</p>
-                    <ul class="radio-list">
-                        <li><label><input type="radio" data-question="1" data-content="0" /> 8.100.168.192.in-addr.arpa</label></li>
-                        <li><label><input type="radio" data-question="0" data-content="1" /> google.com</label></li>
-                        <li><label><input type="radio" data-question="1" data-content="0" /> debian.local</label></li>
-                        <li><label><input type="radio" data-question="1" data-content="0" /> dnslookup.com</label></li>
-                    </ul>
-                </li>
-                <li>
-                    <p>What's the month, day, and year that this pcap was captured?</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="81-90-5202" data-question="8s1s-s9s0s-s5s2s0s2s" placeholder="YYYY-MM-DD" maxlength="10" class="form-control" />
-                     </ul>
-                </li>
+            <li>
+                <p>What is the IP address of the Command and Control (C2) server? </p>
+                <ul class="textbox">
+                    <li><input type="text" data-content="831.731.65.581" data-question="8s3s1s.s7s3s1s.s6s5s.s5s8s1s" placeholder="***.**.***.***" maxlength="14" class="form-control" />
+                </ul>
+            </li>
+            <li>
+                <p>What does it mean when malware has domain-generating algorithm (DGA) capabilities?</p>
+                <ul class="checklist">
+                    <li><label><input type="checkbox" data-question="0" data-content="1" /> It prevents the malware from storing the C2 IP address in plaintext.</label></li>
+                    <li><label><input type="checkbox" data-question="1" data-content="0" /> Makes gibberish domain names to confuse network analysts.</label></li>
+                    <li><label><input type="checkbox" data-question="0" data-content="1" /> To stop infected networks from connecting to the C2 server, law enforcement must shut down thousands of domain names.</label></li>
+                    <li><label><input type="checkbox" data-question="1" data-content="0" /> Installs persistence into the infected machine.</label></li>
+                </ul>
+            </li>
+            <li>
+                <p>What's the DNS resolved name of the C2 server?</p>
+                <ul class="textbox">
+                    <li><input type="text" data-content="pot.548a45bd" data-question="psosts.s5s4s8sas4s5sbsds" placeholder="********.***" maxlength="12" class="form-control" />
+                </ul>
+            </li>
+            <li>
+                <p>What is the name of the file it received from the C2 server?</p>
+                <ul class="textbox">
+                    <li><input type="text" data-content="gis.8920202pot.548a45bd" data-question="gsisss.s8s9s2s0s2s0s2spsosts.s5s4s8sas4s5sbsds" placeholder="********.**********.***" maxlength="23" class="form-control" />
+                </ul>
+            </li>
+            <li>
+                <p>Research the Foudre malware, why did it send a POST message to the C2 server?</p>
+                <ul class="radio-list">
+                    <li><label><input type="radio" data-question="1" data-content="0" /> It is trying to fetch a new update itself.</label></li>
+                    <li><label><input type="radio" data-question="0" data-content="1" /> The malware is an info stealer and it has sent the stolen data to the server.</label></li>
+                    <li><label><input type="radio" data-question="1" data-content="0" /> It is attempting to look like legitimate/used software by sending fake traffic.</label></li>
+                </ul>
+            </li>
             </ol>
         </div>
     </div>

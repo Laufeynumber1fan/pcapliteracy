@@ -32,3 +32,4 @@ rust = "~"
 
 # mdbook-alerts
 [preprocessor.alerts]
+

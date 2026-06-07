@@ -5,6 +5,10 @@ code {
     font-size: 1.25em;
 }
 
+p {
+    line-height: 1.5em !important;
+}
+
 #h-note > a { 
     color: #0969DA !important;
 }

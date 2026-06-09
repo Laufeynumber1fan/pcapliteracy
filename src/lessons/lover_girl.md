@@ -1,6 +1,6 @@
-<h1 id="h-important"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/dear_soulmate.pcap">Dear Soulmate <u>🠇</u></h1>
-> [!IMPORTANT]  
-> Unless you are typing on a textbox, you can traverse exercises with the ← → arrow keys.
+<h1 id="h-note"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/lover_girl.pcap">Lover Girl <u>🠇</u></h1>
+> [!NOTE]  
+> Please **google** if you don't know what to do.
 
 <div class="container">
     <div class="form-row">
@@ -8,41 +8,33 @@
             <hr>
             <ol>
                 <li>
-                    <p>What is the source IP address that is sending the credentials in plaintext?</p>
+                    <p>What version of Apache is the web server using?</p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="3.1.861.291" data-question="3s.s1s.s8s6s1s.s2s9s1s" placeholder="Enter the correct answer." class="form-control" />
+                        <li><input type="text" data-content="04.0.2" data-question="0s4s.s0s.s2s" placeholder="*.*.**" maxlength="6" class="form-control" />
                     </ul>
-                    </li>
-                <li>
-                <p>What is the DNS resolved name of the web server?</p>
-                <ul class="radio-list">
-                    <li><label><input type="radio" data-question="moc.elgoog" data-content="0" /> google.com</label></li>
-                    <li><label><input type="radio" data-question="vog.su" data-content="0" /> us.gov</label></li>
-                    <li><label><input type="radio" data-question="gro.ftei.rekcartatad" data-content="0" /> datatracker.ietf.org</label></li>
-                    <li><label><input type="radio" data-question="ude.stfut.scee" data-content="1" /> eecs.tufts.edu</label></li>
-                </ul>
                 </li>
                 <li>
-                    <p>What's the password of the user "dmoyes"?</p>
+                    <p>What is the "Last Modified" timestamp of bg2.jpg?</p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="suineGllabtooFAmAI" data-question="ssusisnsesGslslsasbstsososFsAsmsAsIs" placeholder="Enter the correct answer." class="form-control" />
+                        <li><input type="text" data-content="00:00:50 21-10-1002" data-question="0s0s:s0s0s:s5s0s s2s1s-s1s0s-s1s0s0s2s" placeholder="YYYY-MM-DD HH:MM:SS" maxlength="19" class="form-control" />
                     </ul>
                 </li>
                 <li>
-                    <p>Why are you able to view the credentials in plaintext?</p>
-                    <ul class="radio-list">
-                        <li><label><input type="radio" data-question=".12" data-content="0" /> The TLS encryption broke and returned an error of 21.</label></li>
-                        <li><label><input type="radio" data-question=".SPTTH" data-content="1" /> The web application did not use HTTPS.</label></li>
-                        <li><label><input type="radio" data-question=".kcatta" data-content="0" /> The TCP handshake was intercepted in a Man In The Middle attack.</label></li>
+                    <p>What is the "Date" timestamp of syndey.jpg?</p>
+                    <ul class="textbox">
+                       <li><input type="text" data-content="70:12:01 02-11-4002" data-question="7s0s:s1s2s:s0s1s   s0s2s-s1s1s-s4s0s0s2s" placeholder="YYYY-MM-DD HH:MM:SS" maxlength="19" class="form-control" />
                     </ul>
                 </li>
                 <li>
-                    <p>What do you suggest in order to fix this vulnerability?</p>
-                    <ul class="radio-list">
-                        <li><label><input type="radio" data-question=".noisrev" data-content="0" /> The client should update their SSL/TLS version.</label></li>
-                        <li><label><input type="radio" data-question=".slortnoc" data-content="0" /> The network admin should enable ACL controls.</label></li>
-                        <li><label><input type="radio" data-question=".SPTTH" data-content="1" /> The network should encrypt their traffic with HTTPS.</label></li>
-                        <li><label><input type="radio" data-question=".sgnittes" data-content="0" /> The client should verify and reenable their firewall settings.</label></li>
+                    <p>What is the full file path of DSC07859.jpg inside the web server?</p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="GPJ.95870CSD/023/dlroWaeS-70-4002/nadisbeW/" data-question="GsPsJs.s9s5s8s7s0sCsSsDs/s0s2s3s/sdslsrsosWsasesSs-s7s0s-s4s0s0s2s/snsasdsisssbsesWs/s" placeholder="/********/****************/***/********.***" maxlength="43" class="form-control" />
+                    </ul>
+                </li>
+                <li>
+                    <p>With the information available to you, which city and country were these pictures taken?</p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="ailartsuA ,tsaoC dloG" data-question="asislsasrstsssusAs s,stsssasosCs sdslsosGs" placeholder="**** *****, *********" maxlength="21" class="form-control" />
                     </ul>
                 </li>
             </ol>
@@ -55,6 +47,7 @@
         <button id="check-questions" class="btn btn-lg btn-success">Check</button>
         <button id="reset-questions" class="btn btn-link">Reset All</button>
     </div>
+</div>
 <script type="text/javascript">//console.log("Check");
     $(function(){
         $('ul.radio-list,ul.checklist,ul.textbox').each(function(i, el){

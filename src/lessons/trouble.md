@@ -29,7 +29,7 @@
                 <li>
                     <p>What's the phone number of the person calling James?</p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="79674962310" data-question="7s9s6s7s4s9s6s2s3s1s0s" placeholder="Enter the correct answer." class="form-control" />
+                        <li><input type="text" data-content="79674962310" data-question="7s9s6s7s4s9s6s2s3s1s0s" placeholder="***********" maxlength="11" class="form-control" />
                     </ul>
                 </li>
                 <li>
@@ -44,7 +44,7 @@
                 <li>
                     <p>What's the last 4 digits of James' social insurance number?</p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="8765" data-question="8s7s6s5s" placeholder="Enter the correct answer." class="form-control" />
+                        <li><input type="text" data-content="8765" data-question="8s7s6s5s" placeholder="****" maxlength="4" class="form-control" />
                     </ul>
                 </li>
             </ol>

@@ -1,40 +1,55 @@
-<h1 id="h-note"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/lover_girl.pcap">Lover Girl <u>🠇</u></h1>
-> [!NOTE]  
-> Please **google** if you don't know what to do.
+<h1 id="h-caution"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/a_cautionary_tale.zip">A Cautionary Tale <u>🠇</u></h1>
 
+> [!CAUTION]  
+> Oh no! The pcap is SSL encrypted!
 <div class="container">
     <div class="form-row">
         <div class="container">
             <hr>
             <ol>
                 <li>
-                    <p>What version of Apache is the web server using?</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="04.0.2" data-question="0s4s.s0s.s2s" placeholder="Enter the correct answer." class="form-control" />
+                    <p>Which packet started the SSL handshake?</p>
+                    <ul class="radio-list">
+                        <li><label><input type="radio" data-question="olleh" data-content="1" /> Packet 1, Client hello</label></li>
+                        <li><label><input type="radio" data-question="olleH" data-content="0" /> Packet 3, Server Hello</label></li>
+                        <li><label><input type="radio" data-question="etacifitreC" data-content="0" /> Packet 4, Certificate</label></li>
+                        <li><label><input type="radio" data-question="tekciT" data-content="0" /> Packet 6, New Session Ticket</label></li>
                     </ul>
                 </li>
                 <li>
-                    <p>What is the "Last Modified" timestamp of bg2.jpg?</p>
+                    <p>Which version of TLS is being used?</p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="00:00:50 21-10-1002" data-question="0s0s:s0s0s:s5s0s s2s1s-s1s0s-s1s0s0s2s" placeholder="Enter the correct answer." class="form-control" />
+                        <li><input type="text" data-content="2.1" data-question="2s.s1s" placeholder="Enter the correct answer." class="form-control" />
                     </ul>
                 </li>
                 <li>
-                    <p>What is the "Date" timestamp of syndey.jpg?</p>
+                    <p>Find the public key that was sent by the TLS server (13.107.3.128).</p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="70:12:01 02-11-4002" data-question="7s0s:s1s2s:s0s1s s0s2s-s1s1s-s4s0s0s2s" placeholder="Enter the correct answer." class="form-control" />
+                        <li><input type="text" data-content="a18bb36e28dbd09923e4f2fc07e3a4ddb13237576e68bc205c018b44ee12db69" data-question="as1s8sbsbs3s6ses2s8sdsbsds0s9s9s2s3ses4sfs2sfscs0s7ses3sas4sdsdsbs1s3s2s3s7s5s7s6ses6s8sbscs2s0s5scs0s1s8sbs4s4seses1s2sdsbs6s9s" placeholder="****************************************************************" maxlength="64" class="form-control" />
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+> [!TIP]  
+> Look up how to decrypt the pcap using the SSLKEYLOGFILE.
+
+<div class="container">
+    <div class="form-row">
+        <div class="container">
+            <ol start="4">
+                <li>
+                    <p>What is the User Agent of the decrypted payload in packet 8.</p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="4102 eciffO tfosorciM" data-question="4s1s0s2s sescsisfsfsOs stsfsosssosrscsisMs" placeholder="********* ****** ****" maxlength="21" class="form-control" />
                     </ul>
                 </li>
                 <li>
-                    <p>What is the full file path of DSC07859.jpg inside the web server?</p>
+                    <p>Except for packet 8, which packet also reveals readable data after being decrypted?</p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="GPJ.95870CSD/023/dlroWaeS-70-4002/nadisbeW/" data-question="GsPsJs.s9s5s8s7s0sCsSsDs/s0s2s3s/sdslsrsosWsasesSs-s7s0s-s4s0s0s2s/snsasdsisssbsesWs/s" placeholder="Enter the correct answer." class="form-control" />
-                    </ul>
-                </li>
-                <li>
-                    <p>With the information available to you, which city and country were these pictures taken?</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="ailartsuA ,tsaoC dloG" data-question="asislsasrstsssusAs s,stsssasosCs sdslsosGs" placeholder="Enter the correct answer." class="form-control" />
+                        <li><input type="text" data-content="04" data-question="0s4s" placeholder="**" maxlength="2" class="form-control" />
                     </ul>
                 </li>
             </ol>

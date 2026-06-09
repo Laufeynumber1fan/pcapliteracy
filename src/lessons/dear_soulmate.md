@@ -1,55 +1,48 @@
-<h1 id="h-caution"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/a_cautionary_tale.zip">A Cautionary Tale <u>🠇</u></h1>
+<h1 id="h-important"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/dear_soulmate.pcap">Dear Soulmate <u>🠇</u></h1>
+> [!IMPORTANT]  
+> Unless you are typing on a textbox, you can traverse exercises with the ← → arrow keys.
 
-> [!CAUTION]  
-> Oh no! The pcap is SSL encrypted!
 <div class="container">
     <div class="form-row">
         <div class="container">
             <hr>
             <ol>
                 <li>
-                    <p>Which packet started the SSL handshake?</p>
+                    <p>What is the source IP address that is sending the credentials in plaintext?</p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="3.1.861.291" data-question="3s.s1s.s8s6s1s.s2s9s1s" placeholder="***.***.*.*" maxlength="11" class="form-control" />
+                    </ul>
+                    </li>
+                <li>
+                <p>What is the DNS resolved name of the web server?</p>
+                <ul class="radio-list">
+                    <li><label><input type="radio" data-question="moc.elgoog" data-content="0" /> google.com</label></li>
+                    <li><label><input type="radio" data-question="vog.su" data-content="0" /> us.gov</label></li>
+                    <li><label><input type="radio" data-question="gro.ftei.rekcartatad" data-content="0" /> datatracker.ietf.org</label></li>
+                    <li><label><input type="radio" data-question="ude.stfut.scee" data-content="1" /> eecs.tufts.edu</label></li>
+                </ul>
+                </li>
+                <li>
+                    <p>What's the password of the user "dmoyes"?</p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="suineGllabtooFAmAI" data-question="ssusisnsesGslslsasbstsososFsAsmsAsIs" placeholder="******************" maxlength="18" class="form-control" />
+                    </ul>
+                </li>
+                <li>
+                    <p>Why are you able to view the credentials in plaintext?</p>
                     <ul class="radio-list">
-                        <li><label><input type="radio" data-question="olleh" data-content="1" /> Packet 1, Client hello</label></li>
-                        <li><label><input type="radio" data-question="olleH" data-content="0" /> Packet 3, Server Hello</label></li>
-                        <li><label><input type="radio" data-question="etacifitreC" data-content="0" /> Packet 4, Certificate</label></li>
-                        <li><label><input type="radio" data-question="tekciT" data-content="0" /> Packet 6, New Session Ticket</label></li>
+                        <li><label><input type="radio" data-question=".12" data-content="0" /> The TLS encryption broke and returned an error of 21.</label></li>
+                        <li><label><input type="radio" data-question=".SPTTH" data-content="1" /> The web application did not use HTTPS.</label></li>
+                        <li><label><input type="radio" data-question=".kcatta" data-content="0" /> The TCP handshake was intercepted in a Man In The Middle attack.</label></li>
                     </ul>
                 </li>
                 <li>
-                    <p>Which version of TLS is being used?</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="2.1" data-question="2s.s1s" placeholder="Enter the correct answer." class="form-control" />
-                    </ul>
-                </li>
-                <li>
-                    <p>Find the public key that was sent by the TLS server (13.107.3.128).</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="a18bb36e28dbd09923e4f2fc07e3a4ddb13237576e68bc205c018b44ee12db69" data-question="as1s8sbsbs3s6ses2s8sdsbsds0s9s9s2s3ses4sfs2sfscs0s7ses3sas4sdsdsbs1s3s2s3s7s5s7s6ses6s8sbscs2s0s5scs0s1s8sbs4s4seses1s2sdsbs6s9s" placeholder="****************************************************************" maxlength="64" class="form-control" />
-                    </ul>
-                </li>
-            </ol>
-        </div>
-    </div>
-</div>
-
-> [!TIP]  
-> Look up how to decrypt the pcap using the SSLKEYLOGFILE.
-
-<div class="container">
-    <div class="form-row">
-        <div class="container">
-            <ol start="4">
-                <li>
-                    <p>What is the User Agent of the decrypted payload in packet 8.</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="4102 eciffO tfosorciM" data-question="4s1s0s2s sescsisfsfsOs stsfsosssosrscsisMs" placeholder="Enter the correct answer." class="form-control" />
-                    </ul>
-                </li>
-                <li>
-                    <p>Except for packet 8, which packet also reveals readable data after being decrypted?</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="04" data-question="0s4s" placeholder="Enter the correct answer." class="form-control" />
+                    <p>What do you suggest in order to fix this vulnerability?</p>
+                    <ul class="radio-list">
+                        <li><label><input type="radio" data-question=".noisrev" data-content="0" /> The client should update their SSL/TLS version.</label></li>
+                        <li><label><input type="radio" data-question=".slortnoc" data-content="0" /> The network admin should enable ACL controls.</label></li>
+                        <li><label><input type="radio" data-question=".SPTTH" data-content="1" /> The network should encrypt their traffic with HTTPS.</label></li>
+                        <li><label><input type="radio" data-question=".sgnittes" data-content="0" /> The client should verify and reenable their firewall settings.</label></li>
                     </ul>
                 </li>
             </ol>
@@ -62,7 +55,6 @@
         <button id="check-questions" class="btn btn-lg btn-success">Check</button>
         <button id="reset-questions" class="btn btn-link">Reset All</button>
     </div>
-</div>
 <script type="text/javascript">//console.log("Check");
     $(function(){
         $('ul.radio-list,ul.checklist,ul.textbox').each(function(i, el){

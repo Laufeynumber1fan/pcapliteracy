@@ -1,53 +1,50 @@
-<h1 id="h-warning"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/trouble.pcapng">Trouble <u>🠇</u></h1>
+<h1 id="h-warning"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/trouble.pcapng">Trouble <u>🠇</u></h1></a>
 > [!WARNING]  
 > This pcap intercepted a phone call!
+
+![](../assets/screenshots/voip1.jpg)
 
 <div class="container">
     <div class="form-row">
         <div class="container">
-            <hr>
-            <ol>
-                <li>
-                    <p>Which protocol has the most packets in the pcap?</p>
-                    <ul class="radio-list">
-                        <li><label><input type="radio" data-question="PIoV" data-content="0" /> VoIP</label></li>
-                        <li><label><input type="radio" data-question="PCT" data-content="0" /> TCP</label></li>
-                        <li><label><input type="radio" data-question="PTR" data-content="1" /> RTP</label></li>
-                        <li><label><input type="radio" data-question="PTTH" data-content="0" /> HTTP</label></li>
-                        <li><label><input type="radio" data-question="PIS" data-content="0" /> SIP</label></li>
-                    </ul>
-                </li>
-                <li>
-                    <p>What's the Caller ID of the person calling James?</p>
-                    <ul class="radio-list">
-                        <li><label><input type="radio" data-question="knaB" data-content="1" /> Bank</label></li>
-                        <li><label><input type="radio" data-question="moM" data-content="0" /> Mom</label></li>
-                        <li><label><input type="radio" data-question="nwonknU" data-content="0" /> Unknown</label></li>
-                        <li><label><input type="radio" data-question="kroW" data-content="0" /> Work</label></li>
-                    </ul>
-                </li>
-                <li>
-                    <p>What's the phone number of the person calling James?</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="79674962310" data-question="7s9s6s7s4s9s6s2s3s1s0s" placeholder="***********" maxlength="11" class="form-control" />
-                    </ul>
-                </li>
-                <li>
-                    <p>Listen to the voice call, what kind of attack is James a victim of?</p>
-                    <ul class="radio-list">
-                        <li><label><input type="radio" data-question="kcattA" data-content="0" /> Man In The Middle Attack</label></li>
-                        <li><label><input type="radio" data-question="kcattA" data-content="0" /> Replay Attack</label></li>
-                        <li><label><input type="radio" data-question="kcattA" data-content="0" /> Physical Attack</label></li>
-                        <li><label><input type="radio" data-question="kcattA" data-content="1" /> Phishing Attack</label></li>
-                    </ul>
-                </li>
-                <li>
-                    <p>What's the last 4 digits of James' social insurance number?</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="8765" data-question="8s7s6s5s" placeholder="****" maxlength="4" class="form-control" />
-                    </ul>
-                </li>
-            </ol>
+        <hr>
+        <ol>
+            <li>
+                <p>Which protocol has the most packets in the pcap?</p>
+                <ul class="radio-list">
+                    <li><label><input type="radio" data-question="PIoV" data-content="0" /> VoIP</label></li>
+                    <li><label><input type="radio" data-question="PCT" data-content="0" /> TCP</label></li>
+                    <li><label><input type="radio" data-question="PTR" data-content="1" /> RTP</label></li>
+                    <li><label><input type="radio" data-question="PTTH" data-content="0" /> HTTP</label></li>
+                    <li><label><input type="radio" data-question="PIS" data-content="0" /> SIP</label></li>
+                </ul>
+            </li>
+            <li>
+                <p>What's the Caller ID of the person calling James?</p>
+                <ul class="radio-list">
+                    <li><label><input type="radio" data-question="knaB" data-content="1" /> Bank</label></li>
+                    <li><label><input type="radio" data-question="moM" data-content="0" /> Mom</label></li>
+                    <li><label><input type="radio" data-question="nwonknU" data-content="0" /> Unknown</label></li>
+                    <li><label><input type="radio" data-question="kroW" data-content="0" /> Work</label></li>
+                </ul>
+            </li>
+            <li>
+                <p>Listen to the voice call, what kind of attack is James a victim of?</p>
+                <ul class="radio-list">
+                    <li><label><input type="radio" data-question="kcattA" data-content="0" /> Man In The Middle Attack</label></li>
+                    <li><label><input type="radio" data-question="kcattA" data-content="0" /> Replay Attack</label></li>
+                    <li><label><input type="radio" data-question="kcattA" data-content="0" /> Phishing Attack</label></li>
+                    <li><label><input type="radio" data-question="kcattA" data-content="0" /> Physical Attack</label></li>
+                    <li><label><input type="radio" data-question="kcattA" data-content="1" /> Spear-Phishing Attack</label></li>
+                </ul>
+            </li>
+            <li>
+                <p>What's the last 4 digits of James' social insurance number?</p>
+                <ul class="textbox">
+                    <li><input type="text" data-content="8765" data-question="8s7s6s5s" placeholder="Enter the correct answer." class="form-control" />
+                </ul>
+            </li>
+        </ol>
         </div>
     </div>
     <div id="tg-msg" class="alert" role="alert" style="display: none">
@@ -57,6 +54,7 @@
         <button id="check-questions" class="btn btn-lg btn-success">Check</button>
         <button id="reset-questions" class="btn btn-link">Reset All</button>
     </div>
+</div>
 <script type="text/javascript">//console.log("Check");
     $(function(){
         $('ul.radio-list,ul.checklist,ul.textbox').each(function(i, el){

@@ -1,49 +1,109 @@
-<h1 id="h-tip"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/from_the_start.pcap">From The Start <u>🠇</u></h1></a>
-<sup>^^ download me</sup>
-> [!TIP]  
-> Press the ENTER key to quickly submit answers.
+<h1 id="h-tip">Someone New</h1>
 
+> [!TIP]  
+> Ctrl + Shift + C to copy text in a Kali console.
 <div class="container">
     <div class="form-row">
         <div class="container">
-            <hr>
             <ol>
                 <li>
-                    <p>How many packets?</p>
+                    <p><code>cd ~</code><br>
+                    <code>pwd</code><br>
+                    What is your current directory? </p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="742" data-question="7s4s2s" placeholder="***" maxlength="3" class="form-control" />
+                        <li><input type="text" data-content="/ilak/emoh/" data-question="/sislsasks/sesmsoshs/s" placeholder="/****/****/" class="form-control" />
                     </ul>
                 </li>
                 <li>
-                    <p>Identify protocols that appear in the pcap. <em>Select all that apply</em></p>
-                    <ul class="checklist">
-                        <li><label><input type="checkbox" data-question="PCT" data-content="1" /> TCP</label></li>
-                        <li><label><input type="checkbox" data-question="PTF" data-content="0"  z/> FTP</label></li>
-                        <li><label><input type="checkbox" data-question="SPTTH" data-content="0" /> HTTPS</label></li>
-                        <li><label><input type="checkbox" data-question="PTN" data-content="1" /> NTP</label></li>
-                        <li><label><input type="checkbox" data-question="LSS" data-content="0" /> SSL</label></li>
-                        <li><label><input type="checkbox" data-question="PRA" data-content="1" /> ARP</label></li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Find the DNS server within the 192.168.100.* network.</p>
+                    <p><code>cd /home/kali</code><br>
+                    <code>cd Downloads</code><br>
+                    <code>pwd</code><br>
+                    What is your current directory? </p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="2.001.861.291" data-question="2s.s0s0s1s.s8s6s1s.s2s9s1s" placeholder="***.***.***.*" maxlength="13" class="form-control" />
+                        <li><input type="text" data-content="sdaolnwoD/ilak/emoh/" data-question="ssdsasoslsnswsosDs/sislsasks/sesmsoshs/s" placeholder="/****/****/*********." class="form-control" />
                     </ul>
                 </li>
                 <li>
-                    <p>The DNS server replied with an A record. It contained an IP of 216.58.206.46. What is that A record's name?</p>
-                    <ul class="radio-list">
-                        <li><label><input type="radio" data-question="apra.rdda-ni.291.861.001.8" data-content="0" /> 8.100.168.192.in-addr.arpa</label></li>
-                        <li><label><input type="radio" data-question="moc.elgoog" data-content="1" /> google.com</label></li>
-                        <li><label><input type="radio" data-question="lacol.naibed" data-content="0" /> debian.local</label></li>
-                        <li><label><input type="radio" data-question="moc.pukoolsnd" data-content="0" /> dnslookup.com</label></li>
-                    </ul>
-                </li>
-                <li>
-                    <p>What's the month, day, and year that this pcap was captured?</p>
+                    <p><code>cd /etc/ssh/ssh_config.d</code><br>
+                    <code>pwd</code><br>
+                    What is your current directory? </p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="81-90-5202" data-question="8s1s-s9s0s-s5s2s0s2s" placeholder="YYYY-MM-DD" maxlength="10" class="form-control" />
+                        <li><input type="text" data-content="d.gifnoc_hss/hss/cte/" data-question="ds.sgsisfsnsoscs_shsssss/shsssss/scstses/s" placeholder="/?/?/?" class="form-control" />
+                    </ul>
+                </li>
+                <li>
+                    <p><code>cd /etc/dconf/db/local.d</code><br>
+                    <code>cd ../../../../sys/devices</code><br>
+                    <code>pwd</code><br>
+                    What is your current directory? </p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="secived/sys/" data-question="ssescsisvsesds/sssysss/s" placeholder="/?/?" class="form-control" />
+                    </ul>
+                </li>
+                <li>
+                    <p><code>cd</code><br>
+                    <code>cd ../../usr/share/doc</code><br>
+                    <code>pwd</code><br>
+                    What is your current directory?</p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="cod/erahs/rsu/" data-question="csosds/sesrsashsss/srsssus/s" placeholder="/?????" class="form-control" />
+                    </ul>
+                </li>
+                <li>
+                    <p><code>cd</code><br>
+                    <code>cd ../______</code><br>
+                    <code>pwd</code><br>
+                    Fill in the blank where <code>pwd</code> prints <code>/usr/local/lib</code></p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="bil/lacol/rsu/.." data-question="bsisls/slsascsosls/srsssus/s.s.s" placeholder="/??????" class="form-control" />
+                    </ul>
+                </li>
+                <li>
+                    <p><code>cd /usr/share/doc</code><br>
+                    <code>cd _________var/lib</code><br>
+                    <code>cd nfs</code><br>
+                    <code>pwd</code><br>
+                    Use <code>../</code> to fill in the blank where <code>pwd</code> prints <code>/var/lib/nfs</code></p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="/../../.." data-question="/s.s.s/s.s.s/s.s.s" placeholder="/?????" class="form-control" />
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+  
+> [!TIP]  
+> Hit the `TAB` during an incomplete command for a possible auto-complete!
+  
+<div class="container">
+    <div class="form-row">
+        <div class="container">
+            <ol start="8">
+                <li>
+                    <p><code>cd /usr/share/_______</code><br>
+                    <code>pwd</code><br>
+                    Fill in the blank where <code>pwd</code> prints <code>/usr/share/perl5/encode</code></p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="edocne/5lrep" data-question="esdsoscsnses/s5slsrsesps" placeholder="/?????" class="form-control" />
+                    </ul>
+                </li>
+                <li>
+                    <p><code>cd</code><br>
+                    <code>cd ___usr/local/lib</code><br>
+                    <code>pwd</code><br>
+                    Fill in the blank where <code>pwd</code> prints <code>usr/local/lib</code></p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="/" data-question="/s" placeholder="*" class="form-control" />
+                    </ul>
+                </li>
+                <li>
+                    <p><code>cd</code><br>
+                    <code>cd ../_____bin/_____dev/net/______usr/local/lib</code><br>
+                    <code>pwd</code><br>
+                    Fix the missing blanks and retype the full path where <code>pwd</code> prints <code>usr/local/lib</code></p>
+                    <ul class="textbox">
+                        <li><input type="text" data-content="bil/lacol/rsu/../../ten/ved/../nib/../.." data-question="bsisls/slsascsosls/srsssus/s.s.s/s.s.s/stsesns/svsesds/s.s.s/snsisbs/s.s.s/s.s.s" placeholder="../?????/bin/?????/dev/net/?????usr/local/lib" class="form-control" />
                     </ul>
                 </li>
             </ol>
@@ -57,15 +117,15 @@
         <button id="reset-questions" class="btn btn-link">Reset All</button>
     </div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript">//console.log("Check");
     $(function(){
-        $('ul.radio-list,ul.checklist,ul.textbox').each(function(i, el){
-            var questionClass = $(this).attr('class');
-            $(this).parent().addClass('question-row').addClass(questionClass);
-            if (questionClass=='radio-list') {
-                $(this).find('input[type="radio"]').attr('name', 'radio-question-' + i);
-            }
-        });
+    $('ul.radio-list,ul.checklist,ul.textbox').each(function(i, el){
+        var questionClass = $(this).attr('class');
+        $(this).parent().addClass('question-row').addClass(questionClass);
+        if (questionClass=='radio-list') {
+            $(this).find('input[type="radio"]').attr('name', 'radio-question-' + i);
+        }
+    });
         function checkQuestion() {
             resetQuestions(true);
             var questions = $('li.question-row');
@@ -180,4 +240,3 @@
         }
     });
 </script>
-

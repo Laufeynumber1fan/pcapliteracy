@@ -1,4 +1,4 @@
-<h1 id="h-note"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/second%20best.pcap">Second Best <u>🠇</u></h1>
+<h1 id="h-note"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/second%20best.pcap">Second Best <u>🠇</u></h1></a>
 > [!NOTE]  
 > How do you read a pcap with a space in the name?
 
@@ -38,7 +38,7 @@
                     </ul>
                 </li>
                 <li>
-                    <p>Is there malicious exe files in this pcap?</p>
+                    <p>Are there malicious exe files in this pcap?</p>
                     <ul class="radio-list">
                         <li><label><input type="radio" data-question=".selif" data-content="0" /> No. There are no exe files.</label></li>
                         <li><label><input type="radio" data-question=".esu" data-content="0" /> No. All files are safe to use.</label></li>

@@ -1,6 +1,8 @@
 PCAP SOURCES
 
 [From The Start](https://app.any.run/tasks/b25f44b9-2fc7-4dfb-ae6b-336f30805f1e)  
+[Lesson 4](https://mcfp.felk.cvut.cz/publicDatasets/CTU-Malware-Capture-Botnet-66-1/66-1.1000p.pcap)
+[Everything I Know About Love](https://mcfp.felk.cvut.cz/publicDatasets/CTU-Malware-Capture-Botnet-265-1/2017-06-24_win4.pcap)
 [Second Best](https://app.any.run/tasks/6cbd6131-5121-48a5-abf7-109dc1f96f8c)  
 [A Cautionary Tale](https://github.com/pan-unit42/wireshark-tutorial-decrypting-HTTPS-traffic)  
 [Lover Girl](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/http_with_jpegs.cap.gz)  

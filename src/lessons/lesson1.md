@@ -1,4 +1,4 @@
-<h1 id="h-tip">Lesson 1</h1>
+<h1 id="h-note">Lesson 1</h1>
 
 The first step in to becoming a **CYBER WARRIOR™** is to install a virtual machine in your personal laptop.
 

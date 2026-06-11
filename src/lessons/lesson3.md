@@ -1,1 +1,0 @@
-<h1 id="h-caution">Lesson 3</h1>

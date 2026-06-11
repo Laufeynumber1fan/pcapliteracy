@@ -1,7 +1,7 @@
 <h1 id="h-tip"><a href="https://mcfp.felk.cvut.cz/publicDatasets/CTU-Malware-Capture-Botnet-265-1/2017-06-24_win4.pcap">Everything I Know About Love <u>🠇</u></h1></a>
 
 > [!TIP]
-> Use Zeek! (Refer To Lesson 4)
+> Use Zeek!
 
 <div class="container">
     <div class="form-row">
@@ -51,7 +51,7 @@
                 <li>
                     <p>What is the top /24 subnet network by connections?</p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="" data-question="" placeholder="**.***.**.0/24" maxlength="14" class="form-control" />
+                        <li><input type="text" data-content="42/0.49.641.28" data-question="4s2s/s0s.s4s9s.s6s4s1s.s2s8s" placeholder="**.***.**.0/24" maxlength="14" class="form-control" />
                     </ul>
                 </li>
             </ol>

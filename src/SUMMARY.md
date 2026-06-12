@@ -20,3 +20,5 @@
 
 [Method Man](./lessons/method_man.md)
 [Bring Da Ruckus](./lessons/bring_da_ruckus.md)
+[C.R.E.A.M](./lessons/c_r_e_a_m.md)
+[Wu-Tang Clan - 7th Chamber](./lessons/wu_tang_clan-7th_chamber.md)

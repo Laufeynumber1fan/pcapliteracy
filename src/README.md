@@ -11,3 +11,5 @@ Solve questions on these pcaps.
 
 3. Something something third question?
 > Blah blah blah
+  
+![](./assets/screenshots/intro.png)

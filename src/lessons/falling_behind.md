@@ -1,4 +1,4 @@
-<h1 id="h-warning"><a href="https://mcfp.felk.cvut.cz/publicDatasets/CTU-Manual-Capture-Attack-1/10.0.0.40.dradis.heartbleed.pcap">Falling Behind <u>🠇</u></h1></a>
+<h1 id="h-warning"><a href="https://mcfp.felk.cvut.cz/publicDatasets/CTU-Manual-Capture-Attack-1/10.0.0.40.dradis.heartbleed.pcap">Falling Behind</h1></a>
 > [!WARNING]
 > An attack happened here!
 

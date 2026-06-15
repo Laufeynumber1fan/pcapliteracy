@@ -1,4 +1,4 @@
-<h1 id="h-tip"><a href="https://mcfp.felk.cvut.cz/publicDatasets/CTU-Malware-Capture-Botnet-265-1/2017-06-24_win4.pcap">Everything I Know About Love <u>🠇</u></h1></a>
+<h1 id="h-tip"><a href="https://mcfp.felk.cvut.cz/publicDatasets/CTU-Malware-Capture-Botnet-265-1/2017-06-24_win4.pcap">Everything I Know About Love</h1></a>
 
 > [!TIP]
 > Use Zeek!

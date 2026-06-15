@@ -1,4 +1,4 @@
-<h1 id="h-warning"><a href="http://mawi.nezu.wide.ad.jp/mawi/samplepoint-A/1999/199902231911.dump.gz">Silver Lining <u>🠇</u></h1></a>
+<h1 id="h-warning"><a href="http://mawi.nezu.wide.ad.jp/mawi/samplepoint-A/1999/199902231911.dump.gz">Silver Lining</h1></a>
 > [!WARNING]  
 > The file is compressed by gzip!
 

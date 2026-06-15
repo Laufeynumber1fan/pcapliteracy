@@ -1,4 +1,4 @@
-<h1 id="h-caution"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/a_cautionary_tale.zip">A Cautionary Tale <u>🠇</u></h1></a>
+<h1 id="h-caution"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/material/a_cautionary_tale.zip">A Cautionary Tale</h1></a>
 
 > [!CAUTION]  
 > Oh no! The pcap is SSL encrypted!

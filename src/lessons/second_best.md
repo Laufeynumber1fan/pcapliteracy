@@ -1,4 +1,4 @@
-<h1 id="h-note"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/pcaps/1-10/second%20best.pcap">Second Best <u>🠇</u></h1></a>
+<h1 id="h-note"><a href="https://github.com/Laufeynumber1fan/pcapliteracy/raw/refs/heads/gh-pages/material/second%20best.pcap">Second Best</h1></a>
 > [!NOTE]  
 > How do you read a pcap with a space in the name?
 

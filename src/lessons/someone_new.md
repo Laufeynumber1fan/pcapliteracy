@@ -11,7 +11,7 @@
                     <code>pwd</code><br>
                     What is your current directory? </p>
                     <ul class="textbox">
-                        <li><input type="text" data-content="/ilak/emoh/" data-question="/sislsasks/sesmsoshs/s" placeholder="/****/****/" class="form-control" />
+                        <li><input type="text" data-content="ilak/emoh/" data-question="/sislsasks/sesmsoshs/s" placeholder="/****/****/" class="form-control" />
                     </ul>
                 </li>
                 <li>

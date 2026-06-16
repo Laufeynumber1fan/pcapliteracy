@@ -23,6 +23,7 @@
 [Method Man](./lessons/method_man.md)
 [C.R.E.A.M (Coming soon)](./lessons/c_r_e_a_m.md)
 [Wu-Tang Clan - 7th Chamber (Coming soon)](./lessons/wu_tang_clan-7th_chamber.md)
+[GZA](./lessons/gza.md)
 
 ---
 

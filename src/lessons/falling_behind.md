@@ -8,12 +8,6 @@
             <hr>
             <ol>
                 <li>
-                    <p>Identify the name and version of the web hosting software used by 10.0.0.40.</p>
-                    <ul class="textbox">
-                        <li><input type="text" data-content="61.2.0.01" data-question="6s1s.s2s.s0s.s0s1s" placeholder="**.*.*.**" maxlength="9" class="form-control" />
-                    </ul>
-                </li>
-                <li>
                     <p>Which TCP port is the web server using?</p>
                     <ul class="textbox">
                         <li><input type="text" data-content="4003" data-question="4s0s0s3s" placeholder="****" maxlength="4" class="form-control" />

@@ -181,7 +181,6 @@
             </ol>
         </div>
     </div>
-</div>
 <details>
     <summary>
         <sub>

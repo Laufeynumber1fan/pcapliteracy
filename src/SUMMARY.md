@@ -19,12 +19,12 @@
 
 ---
 
-[Bring Da Ruckus (NEW!)](./lessons/bring_da_ruckus.md)
+[Bring Da Ruckus](./lessons/bring_da_ruckus.md)
 [Method Man](./lessons/method_man.md)
-[C.R.E.A.M (Coming soon)](./lessons/c_r_e_a_m.md)
-[Wu-Tang Clan - 7th Chamber (Coming soon)](./lessons/wu_tang_clan-7th_chamber.md)
-[GZA](./lessons/gza.md)
+[C.R.E.A.M. (Coming soon)](./lessons/c_r_e_a_m.md)
+[7th Chamber (Coming soon)](./lessons/7th_chamber.md)
+[4th Chamber](./lessons/4th_chamber.md)
 
 ---
 
-[Gold Digger (Coming soon)](./lessons/gold_digger.md)
+[Gold Digger (NEW!)](./lessons/gold_digger.md)

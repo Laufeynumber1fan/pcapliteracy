@@ -13,8 +13,10 @@ PCAP SOURCES
 [Falling Behind](https://mcfp.felk.cvut.cz/publicDatasets/CTU-Manual-Capture-Attack-1/10.0.0.40.dradis.heartbleed.pcap)
 [Method Man](https://mcfp.felk.cvut.cz/publicDatasets/IoTDatasets/CTU-IoT-Malware-Capture-48-1/2019-02-28-19-15-13-192.168.1.200.pcap)
 [Bring Da Ruckus](http://mawi.nezu.wide.ad.jp/mawi/ditl/ditl2007/200701090745.dump.gz)
-[](https://mcfp.felk.cvut.cz/publicDatasets/CTU-Malware-Capture-Botnet-7/2013-08-20_capture-win4.pcap)
+[C.R.E.A.M](https://media.defcon.org/DEF%20CON%2022/DEF%20CON%2022%20ctf/DEF%20CON%2022%20ctf%20teams/DEF%20CON%2022%20CTF%20packet%20captures%20-%20oracle.rar)
 [](/2013-10-10_capture-win14.pcap)
+
+[Gold Digger](https://media.defcon.org/DEF%20CON%2017/DEF%20CON%2017%20ctf/DEF%20CON%2017%20-%20CTF%20BinJitsu%20-%20Capture%20the%20Flag%20complete%20packet%20capture.rar)
 
 Lessons
 
@@ -23,6 +25,14 @@ Lesson 2 - Rushed linux tutorial & file system traversal in cli
 Lesson 3 - Zeek installation 
 Lesson 4 - 
 
+https://mcfp.felk.cvut.cz/publicDatasets/CTU-Malware-Capture-Botnet-7/2013-08-20_capture-win4.pcap
 https://mcfp.felk.cvut.cz/publicDatasets/CTU-Malware-Capture-Botnet-5/ 2.8 GB pcap
 https://mcfp.felk.cvut.cz/publicDatasets/CTU-Malware-Capture-Botnet-13 13 GB
 https://mcfp.felk.cvut.cz/publicDatasets/IoTDatasets/CTU-IoT-Malware-Capture-48-1/2019-02-28-19-15-13-192.168.1.200.pcap 1 GB
+
+
+gold digger?
+https://media.defcon.org/DEF%20CON%2017/DEF%20CON%2017%20ctf/DEF%20CON%2017%20-%20CTF%20BinJitsu%20-%20Capture%20the%20Flag%20complete%20packet%20capture.rar 2 GB
+
+cream?
+https://media.defcon.org/DEF%20CON%2022/DEF%20CON%2022%20ctf/DEF%20CON%2022%20ctf%20teams/DEF%20CON%2022%20CTF%20packet%20captures%20-%20oracle.rar 50 MB

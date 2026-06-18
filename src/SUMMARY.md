@@ -23,7 +23,7 @@
 [Method Man](./lessons/method_man.md)
 [C.R.E.A.M. (Coming soon)](./lessons/c_r_e_a_m.md)
 [7th Chamber (Coming soon)](./lessons/7th_chamber.md)
-[4th Chamber](./lessons/4th_chamber.md)
+[4th Chamber (Coming soon)](./lessons/4th_chamber.md)
 
 ---
 

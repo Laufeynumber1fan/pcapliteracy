@@ -1,6 +1,5 @@
 <h1 id="h-caution"><a href="http://mawi.nezu.wide.ad.jp/mawi/ditl/ditl2007/200701090745.dump.gz">Bring Da Ruckus</h1></a>
 
-
 <details>
     <summary>
         <sub>

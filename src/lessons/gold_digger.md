@@ -42,12 +42,58 @@ Your file is named `dc17.pcap`
                         <li><input type="text" data-content="24349983" data-question="2s4s3s4s9s9s8s3s" class="form-control" />
                     </ul>
                 </li>
+            </ol>
+        </div>
+    </div>
+</div>
+<details>
+    <summary>
+        <sub>
+        </sub>
+    </summary>
+    <div class="mdbook-alerts mdbook-alerts-caution">
+        <p class="mdbook-alerts-title">
+            <span class="mdbook-alerts-icon"></span>
+            Don't use big tools on this pcap
+        </p>
+        <p>
+            Use capinfos and one of its arguments.
+        </p>
+    </div>
+</details>
+<div class="container">
+    <div class="form-row">
+        <div class="container">
+            <ol start="5">
                 <li>
                     <p>Identify the IP address of the FTP server.</p>
                     <ul class="textbox">
                         <li><input type="text" data-content="01.9.13.01" data-question="0s1s.s9s.s1s3s.s0s1s" class="form-control" />
                     </ul>
                 </li>
+            </ol>
+        </div>
+    </div>
+</div>
+<details>
+    <summary>
+        <sub>
+        </sub>
+    </summary>
+    <div class="mdbook-alerts mdbook-alerts-tip">
+        <p class="mdbook-alerts-title">
+            <span class="mdbook-alerts-icon"></span>
+            Carving
+        </p>
+        <p>
+            Some tools are much slower at carving.
+        </p>
+    </div>
+</details>
+<div class="container">
+    <div class="form-row">
+        <div class="container">
+            <ol start="6">
                 <li>
                     <p>How many users can be observed successfully logging into the FTP server?</p>
                     <ul class="textbox">
@@ -78,6 +124,29 @@ Your file is named `dc17.pcap`
                         <li><input type="text" data-content="fle" data-question="fslses" placeholder="***" class="form-control" />
                     </ul>
                 </li>
+            </ol>
+        </div>
+    </div>
+</div>
+<details>
+    <summary>
+        <sub>
+        </sub>
+    </summary>
+    <div class="mdbook-alerts mdbook-alerts-tip">
+        <p class="mdbook-alerts-title">
+            <span class="mdbook-alerts-icon"></span>
+            tip
+        </p>
+        <p>
+            Use the command "file"
+        </p>
+    </div>
+</details>
+<div class="container">
+    <div class="form-row">
+        <div class="container">
+            <ol start="11">
                 <li>
                     <p>What is the SHA1 hash of "key_save.txt"?</p>
                     <ul class="textbox">
@@ -121,7 +190,7 @@ Your file is named `dc17.pcap`
                     </ul>
                 </li>
                 <li>
-                    <p>Which IP address conducted nmap scans on 10.31.1.2?</p>
+                    <p>Which IP address conducted nmap scans on 10.31.1.2 using nmap's default user-agent?</p>
                     <ul class="textbox">
                         <li><input type="text" data-content="9.01.13.01" data-question="9s.s0s1s.s1s3s.s0s1s" class="form-control" />
                     </ul>
@@ -181,7 +250,7 @@ Your file is named `dc17.pcap`
                     </ul>
                 </li>
                 <li>
-                    <p>How many unique files are actually real because the HTTP server returned a successful response.</p>
+                    <p>How many unique files are actually real because the HTTP server returned a successful response?</p>
                     <ul class="textbox">
                         <li><input type="text" data-content="392" data-question="3s9s2s" class="form-control" />
                     </ul>

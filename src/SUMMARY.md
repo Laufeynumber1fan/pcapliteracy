@@ -7,11 +7,13 @@
 [Someone New](./lessons/someone_new.md)
 [From The Start](./lessons/from_the_start.md)
 [Second Best](./lessons/second_best.md)
+[Valentine (Coming soon)](./lessons/valentine.md)
 [Silver Lining](./lessons/silver_lining.md)
 [Bewitched](./lessons/bewitched.md)
 [Everything I Know About Love](./lessons/everything_i_know_about_love.md)
 [Lover Girl](./lessons/lover_girl.md)
 [Trouble](./lessons/trouble.md)
+[Tough Luck (NEW!)](./lessons/tough_luck.md)
 [A Cautionary Tale](./lessons/a_cationary_tale.md)
 [Dear Soulmate](./lessons/dear_soulmate.md)
 [I Wish You Love](./lessons/i_wish_you_love.md)
@@ -27,4 +29,4 @@
 
 ---
 
-[Gold Digger (NEW!)](./lessons/gold_digger.md)
+[Gold Digger](./lessons/gold_digger.md)

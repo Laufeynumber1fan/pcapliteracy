@@ -13,7 +13,7 @@ PCAP SOURCES
 [Dear Soulmate](https://github.com/mchow01/Bootcamp/blob/master/set4.pcap)  
 [I Wish You Love](https://github.com/sbousseaden/PCAP-ATTACK/blob/master/Command%20and%20Control/C2_Foudre_Backdoor_DGA.pcapng)  
 [Falling Behind](https://mcfp.felk.cvut.cz/publicDatasets/CTU-Manual-Capture-Attack-1/10.0.0.40.dradis.heartbleed.pcap)
-[Method Man](https://mcfp.felk.cvut.cz/publicDatasets/IoTDatasets/CTU-IoT-Malware-Capture-48-1/2019-02-28-19-15-13-192.168.1.200.pcap)
+[Method Man](https://mcfp.felk.cvut.cz/publicDatasets/CTU-Mixed-Capture-1/2015-07-28_mixed.pcap)
 [Bring Da Ruckus](http://mawi.nezu.wide.ad.jp/mawi/ditl/ditl2007/200701090745.dump.gz)
 [C.R.E.A.M](https://media.defcon.org/DEF%20CON%2022/DEF%20CON%2022%20ctf/DEF%20CON%2022%20ctf%20teams/DEF%20CON%2022%20CTF%20packet%20captures%20-%20oracle.rar)
 [](/2013-10-10_capture-win14.pcap)

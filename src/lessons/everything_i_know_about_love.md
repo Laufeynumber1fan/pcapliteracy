@@ -9,7 +9,7 @@
             <hr>
                 <ol>
                 <li>
-                    <p>What is the 2nd highest IP address by connections?</p>
+                    <p>What is the highest IP address by connections?</p>
                     <ul class="textbox">
                         <li><input type="text" data-content="411.1.861.291" data-question="4s1s1s.s1s.s8s6s1s.s2s9s1s" placeholder="***.***.*.***" maxlength="13" class="form-control" />
                     </ul>
@@ -28,7 +28,7 @@
                     </ul>
                 </li>
                 <li>
-                    <p>How many connections is associated with port 80?</p>
+                    <p>How many connections are associated with port 80?</p>
                     <ul class="textbox">
                         <li><input type="text" data-content="7" data-question="7s" placeholder="*" maxlength="1" class="form-control" />
                     </ul>

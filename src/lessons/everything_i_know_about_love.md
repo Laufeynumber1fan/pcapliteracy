@@ -28,7 +28,7 @@
                     </ul>
                 </li>
                 <li>
-                    <p>How many connections is associated with port 80?</p>
+                    <p>How many connections are associated with port 80?</p>
                     <ul class="textbox">
                         <li><input type="text" data-content="7" data-question="7s" placeholder="*" maxlength="1" class="form-control" />
                     </ul>

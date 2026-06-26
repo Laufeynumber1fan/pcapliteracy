@@ -32,7 +32,7 @@
                     </ul>
                 </li>
                 <li>
-                    <p>With the information available to you, which city and country were these pictures taken?</p>
+                    <p>Use a search engine and the information available to you to find which city and country these pictures taken.</p>
                     <ul class="textbox">
                         <li><input type="text" data-content="ailartsuA ,tsaoC dloG" data-question="asislsasrstsssusAs s,stsssasosCs sdslsosGs" placeholder="**** *****, *********" maxlength="21" class="form-control" />
                     </ul>

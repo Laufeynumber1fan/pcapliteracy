@@ -9,7 +9,7 @@
             <hr>
                 <ol>
                 <li>
-                    <p>What is the 2nd highest IP address by connections?</p>
+                    <p>What is the highest IP address by connections?</p>
                     <ul class="textbox">
                         <li><input type="text" data-content="411.1.861.291" data-question="4s1s1s.s1s.s8s6s1s.s2s9s1s" placeholder="***.***.*.***" maxlength="13" class="form-control" />
                     </ul>

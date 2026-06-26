@@ -90,8 +90,8 @@
                     <p><code>cat bewitched.txt| grep -e '[0-9]'</code><br>
                     What is the output of the grep command?</p>
                     <ul class="radio-list">
-                        <li><label><input type="radio" data-question="9" data-content="0" /> Text that must contain all numbers from 0 to 9</label></li>
-                        <li><label><input type="radio" data-question="9" data-content="1" /> Text that contains any number from 0 to 9</label></li>
+                        <li><label><input type="radio" data-question="9" data-content="0" /> Text that must contain all numbers between 0 to 9</label></li>
+                        <li><label><input type="radio" data-question="9" data-content="1" /> A single character that is between 0 to 9</label></li>
                     </ul>
                 </li>
                 <li>
